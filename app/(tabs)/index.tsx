@@ -1,13 +1,13 @@
 import { Text, View } from "react-native";
 
-import EditScreenInfo from "../../components/edit-screen-info";
+import Counter from "../../components/counter";
 
 export default function TabOneScreen() {
   return (
     <View className={styles.container}>
-      <Text className={styles.title}>Tab One</Text>
+      <Text className={styles.title}>Counter</Text>
       <View className={styles.separator} />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
+      <Counter />
     </View>
   );
 }
